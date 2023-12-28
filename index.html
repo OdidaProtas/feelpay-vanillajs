@@ -5,11 +5,15 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
+    <script type="module" crossorigin src="https://feelpay-launcher.vercel.app/assets/index-lZ9pKeAM.js"></script>
+    <link rel="stylesheet" crossorigin href="https://feelpay-launcher.vercel.app/assets/index-ad2GHSlv.css">
   </head>
   <body>
     <div id="app"></div>
-    <div id="dreamfeel-pay-button"></div>
-    <script src="https://feelpay.vercel.app/packages/v1"></script>
-    <script type="module" src="/main.js"></script>
+     <feelpay-launcher
+      clientSecret="0a7013c0fac16ea352b45cd5b52534bd"
+      clientKey="e07fea12a51701c1"
+      order="{}"
+    />
   </body>
 </html>
