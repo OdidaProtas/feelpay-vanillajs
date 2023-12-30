@@ -9,27 +9,30 @@
       type="module"
       src="https://api.dreamfeel.me/assets/launcher.js"
     ></script>
+    <link rel="stylesheet" crossorigin href="https://api.dreamfeel.me/assets/launcher.css">
     <script type="module" src="main.js"></script>
   </head>
   <body>
-    <feelpay-launcher
-    clientIdentifier="0a7013c0fac16ea352b45cd5b52534bd"
-      clientKey="e07fea12a51701c1"
-      paymentRef=""
-      description="Feelpay Donation"
-      amount="1"
-      currency="KES"
-      checkoutPage="https://feelpay-vanillajs.vercel.app"
-      webHookUrl="https://feelpay.io/callback"
-      customerName="John Doe"
-      customerEmail="dreamer@example.com"
-      customerPhone="079XXXXXX"
-      shippingRegion="Nairobi County"
-      shippingCityTown="Westlands"
-      shippingStreet="Westlands"
-      shippingDetailedAddress="Kericho road"
-      shippingLat="1.2921"
-      shippingLng="36.82195"
-    />
+    <div>
+      <feelpay-launcher
+        clientIdentifier="0a7013c0fac16ea352b45cd5b52534bd"
+        clientKey="e07fea12a51701c1"
+        paymentRef=""
+        description="Feelpay Donation"
+        amount="1"
+        currency="KES"
+        checkoutPage="https://feelpay-vanillajs.vercel.app"
+        webHookUrl="https://feelpay.io/callback"
+        customerName="John Doe"
+        customerEmail="dreamer@example.com"
+        customerPhone="079XXXXXX"
+        shippingRegion="Nairobi County"
+        shippingCityTown="Westlands"
+        shippingStreet="Westlands"
+        shippingDetailedAddress="Kericho road"
+        shippingLat="1.2921"
+        shippingLng="36.82195"
+      />
+    </div>
   </body>
 </html>
