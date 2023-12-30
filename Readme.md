@@ -52,7 +52,7 @@ Use `<feelpay-launcher></feeelpay-launcher>` as any other HTML tag, and pass ord
 
 ```html
 <feelpay-launcher
-  clientidentifier=""
+  clientIdentifier=""
   clientKey=""
   paymentRef=""
   description="Feelpay Demo"
@@ -90,7 +90,7 @@ Here is a full HMTL with these Changes
   </head>
   <body>
     <feelpay-launcher
-      clientidentifier=""
+      clientIdentifier=""
       clientKey=""
       paymentRef=""
       description="Feelpay Donation"
